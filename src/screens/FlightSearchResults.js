@@ -7,7 +7,6 @@ import { API_URL } from '../utility/constants'; // Import API_URL constant
 import { formatFlight, sortFlightsByPrice } from '../utility/utils'; // Import utility functions
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-
 class FlightSearchResults extends Component {
     state = {
         flights: [],
